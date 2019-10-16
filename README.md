@@ -7,9 +7,18 @@
 
 ## Install
 
+Download the directory and place on your Desktop. Open up a terminal window and type in the following commands:
+
+```sh
+cd Desktop/will-search/
+```
+where will-search/ is the directory containing all the files above. Then run:
+
 ```sh
 pip install -r requirements.txt
 ```
+
+You've now installed all you need.
 
 ## Usage
 
@@ -26,5 +35,3 @@ python webscraper.py
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
