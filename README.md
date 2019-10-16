@@ -7,10 +7,10 @@
 
 ## Install
 
-Download the directory and place on your Desktop. Open up a terminal window and type in the following commands:
+Download the directory and place on your Desktop (if you have it in another folder, in the below command, use that path instead of Desktop. If you don't know how to do that, just move it to your desktop and use the below command). Open up a terminal window and type in the following commands:
 
 ```sh
-cd Desktop/will-search/
+cd Desktop/will-search-master/
 ```
 where will-search/ is the directory containing all the files above. Then run:
 
