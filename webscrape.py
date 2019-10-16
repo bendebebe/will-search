@@ -114,4 +114,4 @@ with open(filename, mode='w') as file:
         not_new_row = {k: v for k, v in row.items() if k not in fieldnames}
         writer.writerow(new_row)
 
-print('Scraping successfully outputed to file: %s', filename)
+print ('Scraping successfully outputed to file: %s') % filename
