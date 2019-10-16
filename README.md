@@ -23,7 +23,7 @@ You've now installed all you need.
 ## Usage
 
 ```sh
-python webscraper.py
+python webscrape.py
 ```
 
 ## Author
