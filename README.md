@@ -6,6 +6,8 @@
 > Web Scraping Application built to pull Will information from New Castle, DE county website
 
 ## Install
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbendebebe%2Fwill-search.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbendebebe%2Fwill-search?ref=badge_shield)
+
 
 Download the directory and place on your Desktop (if you have it in another folder, in the below command, use that path instead of Desktop. If you don't know how to do that, just move it to your desktop and use the below command). Open up a terminal window and type in the following commands:
 
@@ -35,3 +37,7 @@ python webscrape.py
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbendebebe%2Fwill-search.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbendebebe%2Fwill-search?ref=badge_large)
