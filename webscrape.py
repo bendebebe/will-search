@@ -78,7 +78,7 @@ for r in range(1, table_len):
                 cols = sub_row.find_elements_by_tag_name("td")
                 for td in cols:
                     pairs.append(td.text)
-                if len(pairs) == 2:
+                if len(pairs) == 2 and pairs[0] != "":
                     if pairs[0][-1] == ":":
                         output_row[pairs[0][:-1]] = pairs[1]
                     else:
@@ -94,8 +94,8 @@ for r in range(1, table_len):
                 else:
                     # implement "View Affadvit Details"
                     pass
-                    
-        browser.execute_script("window.history.go(-1)")
+        if browser.current_url !=  "http://www3.nccde.org/will/search/":       
+            browser.execute_script("window.history.go(-1)")
     data.append(output_row)
 
 browser.close()
